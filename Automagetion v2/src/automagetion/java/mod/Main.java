@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Main.MODID, name = Main.MODNAME, version = Main.VERSION)
 public class Main
 {
-	@SidedProxy(clientSide="com.automagetio.automagetion.ClientProxy", serverSide="com.automagetio.automagetion.ServerProxy")
+	@SidedProxy(clientSide="automagetion.java.mod.ClientProxy", serverSide="automagetion.java.mod.ServerProxy")
 	public static CommonProxy proxy;
 
     public static final String MODID = "automagetion";
