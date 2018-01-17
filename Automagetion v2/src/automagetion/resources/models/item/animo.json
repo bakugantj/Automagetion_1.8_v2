@@ -1,6 +1,7 @@
 {
     "parent":"tutorial:item/standard_item",
-    "textures": {
+    "textures": 
+    {
         "layer0":"automagetion:items/animo"
     }
 }
