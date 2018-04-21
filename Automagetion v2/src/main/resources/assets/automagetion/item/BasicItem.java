@@ -1,4 +1,4 @@
-package automagetion.java.item;
+package main.resources.assets.automagetion.item;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

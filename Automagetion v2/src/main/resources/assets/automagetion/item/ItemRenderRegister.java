@@ -1,6 +1,6 @@
-package automagetion.java.item;
+package main.resources.assets.automagetion.item;
 
-import automagetion.java.mod.Main;
+import main.resources.assets.automagetion.mod.Main;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;

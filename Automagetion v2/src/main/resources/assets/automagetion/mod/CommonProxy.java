@@ -1,23 +1,26 @@
-package automagetion.java.mod;
+package main.resources.assets.automagetion.mod;
+
+
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-public class ServerProxy extends CommonProxy
+public class CommonProxy 
 {
-	public void preInit(FMLPreInitializationEvent e) 
+
+    public void preInit(FMLPreInitializationEvent e) 
     {
-		super.preInit(e);
+    	//initialize all items
     }
 
     public void init(FMLInitializationEvent e) 
     {
-    	super.init(e);
+
     }
 
     public void postInit(FMLPostInitializationEvent e) 
     {
-    	super.postInit(e);
+
     }
 }

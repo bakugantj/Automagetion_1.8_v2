@@ -1,26 +1,28 @@
-package automagetion.java.mod;
+package main.resources.assets.automagetion.mod;
 
-
-
+import main.resources.assets.automagetion.item.ItemRenderRegister;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-public class CommonProxy 
+public class ClientProxy extends CommonProxy
 {
-
-    public void preInit(FMLPreInitializationEvent e) 
+	@Override
+	public void preInit(FMLPreInitializationEvent e) 
     {
-    	//initialize all items
+		super.preInit(e);
     }
 
+	@Override
     public void init(FMLInitializationEvent e) 
     {
-
+    	super.init(e);
+    	ItemRenderRegister.registerItemRenderer();
     }
 
+	@Override
     public void postInit(FMLPostInitializationEvent e) 
     {
-
+    	super.postInit(e);
     }
 }

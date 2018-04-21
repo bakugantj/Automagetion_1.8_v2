@@ -1,4 +1,4 @@
-package automagetion.java.mod;
+package main.resources.assets.automagetion.mod;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -22,12 +22,11 @@ public class Main
         
     @Instance
     public static Main instance = new Main();
-        
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent e) 
     {
-    	System.out.println("Hello World!");
+    	System.out.println("Automagetion: Hello World!");
     	Main.proxy.preInit(e);
     }
         
